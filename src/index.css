@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-primary: #1B3B2B;
+  --color-primary-light: #2D5A43;
+  --color-accent: #A84429;
+  --color-accent-dark: #8F341C;
+  --color-cream: #FAF7F2;
+  --color-cream-light: #FDFBF7;
+  --color-soft-blue: #CDE4EB;
+  --color-soft-blue-light: #D8EDF2;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-cream);
+    color: #222222;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
